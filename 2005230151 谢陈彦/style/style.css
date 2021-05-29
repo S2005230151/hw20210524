@@ -1,0 +1,38 @@
+html {
+    font-size:70px;
+}
+
+.main {
+    display: flex; 
+    margin: 0 auto;
+    width: 780px;
+    height: 200px;
+    font-size: 1rem;
+}
+.title {
+    max-height: .9rem;
+    line-height: .45rem;
+    font-size: .34rem;
+}
+
+.new {
+    flex-direction: column;
+    padding-right: 10px;
+    width: 400px;
+    height: 140px;
+}
+
+.content {
+    float: left;
+    color: #b4b4b4;
+    font-size: .24rem;
+}
+.app {
+    float:right;
+    color: #ee1a1a;
+    font-size: .22rem;
+    border: 1px solid rgba(238,26,26,.3);
+    border-radius: 1rem;
+}
+
+
